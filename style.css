@@ -3,7 +3,7 @@ html {
   width: 100%;
 }
 
-
+/* section at top of page */
 header {
   background: black;
   color:white;
@@ -13,6 +13,7 @@ header {
   height: 60px;
 }
 
+/* name at top of page */
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 0;
@@ -24,6 +25,7 @@ h3 {
   margin-top:0;
 }
 
+/* sets area and background for intro, about me, and contact */
 main {
   background: beige;
   padding-left: 20%;
@@ -49,8 +51,29 @@ ol {
   margin-bottom: 0;
 }
 
+
 footer {
   background: black;
   color: white;
   margin: 0;
+  font-size: 12px;
+  text-align: right;
+}
+
+/* set link colors on different actions */
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: cornflowerblue;
+}
+
+a:active {
+  color: red;
 }
